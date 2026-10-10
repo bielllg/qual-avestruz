@@ -1,8 +1,8 @@
 import { Mountain, Glasses, NotebookPen, Compass, Wine, Coffee, Flag, BicepsFlexed, Brain, Rocket, Trophy, Lightbulb, TreePine, Building2, House, Handshake, Users, Heart } from 'lucide-react';
 export const characters = {
- tito:{image:'/assets/tito-v2.png',name:'Tito',display:'TiTO',color:'#1B8CE6',phrase:'Curioso, veloz e sempre pronto pra aventura.',traits:['Aventureiro','Curioso','Espontâneo'],scene:0},
- rico:{name:'Rico',display:'RiCO',color:'#EE2018',phrase:'Estiloso, confiante e cheio de atitude.',traits:['Estiloso','Confiante','Descolado'],scene:1},
- nino:{name:'Nino',display:'NiNO',color:'#66962A',phrase:'Calmo, divertido e muito criativo.',traits:['Criativo','Calmo','Divertido'],scene:5}
+ tito:{image:'/assets/tito-v2.webp',name:'Tito',display:'TiTO',color:'#1B8CE6',phrase:'Curioso, veloz e sempre pronto pra aventura.',traits:['Aventureiro','Curioso','Espontâneo'],scene:0},
+ rico:{image:'/assets/rico.webp',name:'Rico',display:'RiCO',color:'#EE2018',phrase:'Estiloso, confiante e cheio de atitude.',traits:['Estiloso','Confiante','Descolado'],scene:1},
+ nino:{image:'/assets/nino.webp',name:'Nino',display:'NiNO',color:'#66962A',phrase:'Calmo, divertido e muito criativo.',traits:['Criativo','Calmo','Divertido'],scene:5}
 };
 const q=(before,word,after,color,options)=>({before,word,after,color,options:options.map(([id,Icon,text])=>({id,Icon,text}))});
 export const questions=[
