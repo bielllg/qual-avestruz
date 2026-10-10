@@ -27,17 +27,3 @@ As opções mudam de posição a cada partida e suas cores são embaralhadas. As
 - **QRCode** gera o código presente no cartão compartilhável.
 - **Web Audio API, Web Share API, Clipboard API e Canvas API** permitem música e efeitos sonoros, compartilhamento nativo, cópia de link e imagem, e geração do cartão PNG em 1080 × 1920.
 
-## Executar localmente
-
-```bash
-npm install
-npm run dev
-```
-
-## Testar e compilar
-
-```bash
-npm test
-npm run build
-npm run preview
-```
